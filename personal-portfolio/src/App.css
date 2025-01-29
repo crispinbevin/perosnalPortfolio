@@ -1,0 +1,32 @@
+*{
+  font-family: "Roboto", serif;
+  color: white;
+}
+
+.navigation-section{
+	min-height: 10vh;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 4rem ;
+}
+
+.nav-list{
+	display: flex;
+	gap: 15px;
+}
+
+.nav-item{
+	list-style: none;
+	font-size: 1.1rem;
+}
+
+.nav-link[
+	
+]
+
+Link{
+	text-decoration: none;
+}
+
