@@ -3,5 +3,87 @@
   color: white;
 }
 
+.home-section{
+  min-height: 105vh;
+  background-image: url(./assets/hero-background.jpg);
+  margin-top: -15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.home-wrapper{
+  font-display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 20px;
+}
+
+.home-subheading{
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.switching-text{
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.home-text{
+  display: flex;
+  text-align: center;
+}
+
+.about-section{
+  min-height: 100vh;
+  background-color: rgb(5, 5, 5);
+  display: flex;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  margin-inline: 100px;
+  justify-content : center;
+}
+
+.about-header{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.about-text p{
+  color: rgb(179, 179, 179);
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-image img{
+  width: auto;
+  max-height: 100vh;
+  object-fit: fil;
+}
+
+.about-btn{
+  background-color: rgb(255, 77, 77);
+  color: rgb(231, 229, 229);
+  font-size: .7rem;
+  font-weight: 500;
+  padding: 20px;
+  max-width: 170px;
+}
+
+.services-section{
+  min-height: 80vh;
+  background-image: url(./assets/services-background.jpg);
+}
+
+.services-wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
