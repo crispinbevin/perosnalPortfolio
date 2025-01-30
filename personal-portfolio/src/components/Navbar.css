@@ -1,0 +1,39 @@
+.navigation-section{
+	min-height: 10vh;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 4rem ;
+}
+
+.nav-wrapper{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-inline: 140px;
+}
+
+.nav-list{
+	display: flex;
+	gap: 15px;
+}
+
+.nav-item{
+	list-style: none;
+	font-size: .8rem;
+	font-weight: 500;
+}
+
+.nav-link{
+	text-decoration: none;
+}
+
+Link{
+	text-decoration: none;
+}
+
+@media  screen and (max-width:900px) {
+    
+}
