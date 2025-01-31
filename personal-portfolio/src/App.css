@@ -29,6 +29,13 @@
   font-weight: 700;
 }
 
+.socials-icon .social-svg-icon{
+  fill: rgba(255, 255, 255, 0.584);
+}
+.socials-icon .social-svg-icon:hover{
+  fill: rgb(255, 255, 255);
+}
+
 .home-text{
   display: flex;
   text-align: center;
@@ -73,6 +80,12 @@
   font-weight: 500;
   padding: 20px;
   max-width: 170px;
+  transition:ease-in-out 100ms;
+}
+
+.about-btn:hover{
+ background-color: white;
+ color: rgb(255, 77, 77);
 }
 
 .services-section{
