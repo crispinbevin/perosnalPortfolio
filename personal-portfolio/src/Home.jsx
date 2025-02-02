@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import About from './About.jsx'
 import Services from './Services.jsx' 
+import Portfolio from './Portfolio.jsx'
 import 'react-social-icons'
 import 'react-social-icons/instagram'
 import 'react-social-icons/facebook'
@@ -28,12 +29,13 @@ function Home() {
             <SocialIcon className="socials-icon" url='twitter.com' bgColor='rgb(0,0,0,0)' fgColor='currentColor'/>
             <SocialIcon className="socials-icon" url='instagram.com' bgColor='rgb(0,0,0,0)' fgColor='currentColor'/>
             <SocialIcon className="socials-icon" url='pinterest.com' bgColor='rgb(0,0,0,0)' fgColor='currentColor'/>
-            <SocialIcon className="socials-icon" url='behance.com' bgColor='rgb(0,0,0,0)' fgColor='currentColour'/>
+            <SocialIcon className="socials-icon" url='behance.com' bgColor='rgb(0,0,0,0)' fgColor='currentColor'/>
           </div>
         </div>
       </div>
       <About />
       <Services />
+      <Portfolio />
     </>
   )
 }
