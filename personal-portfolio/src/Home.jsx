@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx'
 import About from './About.jsx'
 import Services from './Services.jsx' 
 import Portfolio from './Portfolio.jsx'
+import Contact from './Contact.jsx'
 import 'react-social-icons'
 import 'react-social-icons/instagram'
 import 'react-social-icons/facebook'
@@ -11,6 +12,9 @@ import 'react-social-icons/pinterest'
 import 'react-social-icons/twitter'
 import 'react-social-icons/behance'
 import { SocialIcon } from 'react-social-icons/component'
+// import {Carousel} from 'react-bootstrap/Carousel';
+// import {CarouselItem} from 'react-bootstrap/esm/CarouselItem.js'
+
 function Home() {
   return (
     <>
@@ -36,6 +40,7 @@ function Home() {
       <About />
       <Services />
       <Portfolio />
+      <Contact />
     </>
   )
 }

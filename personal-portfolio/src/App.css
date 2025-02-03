@@ -7,7 +7,8 @@
 }
 
 :root{
-  --sectionbg : rgb(5, 5, 5); 
+  --sectionbg : rgb(5, 5, 5);
+  --accent : rgb(255, 77, 77); 
 }
 
 .home-section{
@@ -40,6 +41,7 @@
   fill: rgba(255, 255, 255, 0.002);
 }
 .socials-icon a:hover{
+  fill: white;
 }
 
 .home-text{
@@ -121,10 +123,6 @@
   font-size: 1.3rem;
 }
 
-.service-cards-wrapper{
-  
-}
-
 .services-text h1{
   font-size: 2rem;
   font-weight: 700;
@@ -150,7 +148,7 @@
 }
 
 .portfolio-section{
-    min-height: 71.57 vh;
+    min-height: 80 vh;
     background-color: var(--sectionbg);
 }
 
@@ -182,4 +180,95 @@
   scale: 1.089;
   object-fit: cover;
   overflow: hidden;
+}
+
+.contact-subsection1{
+  min-height: 60vh;
+  background-color: var(--sectionbg);
+}
+
+.csection1-wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+
+.contact-subsection1 h1{
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+.contact-subsection2{
+  min-height: 64vh;
+  background-color: var(--sectionbg);
+}
+
+.csection2-wrapper{
+  width: 100%;
+}
+
+.contact-subsection2 h3{
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding-top: 100px
+}
+
+.contact-textfields{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-textfield{
+  background-color: var(--sectionbg);
+  box-shadow: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: solid 1px var(--accent);
+  width: 25ch;
+}
+
+.contact-text-area{
+  background-color: var(--sectionbg);
+  box-shadow: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: solid 1px var(--accent);
+  width: 57ch;
+  min-height: 10ch;
+}
+
+.text-field-wrapper{
+  display: flex;
+  gap: 15px;
+  
+}
+
+.text-area-wrapper{
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.map{
+  background-color: white;
+  height: 500px;
+}
+
+.map{
+  color: black;
 }

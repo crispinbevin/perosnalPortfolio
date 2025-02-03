@@ -5,7 +5,7 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div className="navigation-section">
+    <div className="navbar navbar-static-top navigation-section">
         <div className="nav-wrapper">
           <div className="nav-logo">
               <img src={Logo} alt="" />
