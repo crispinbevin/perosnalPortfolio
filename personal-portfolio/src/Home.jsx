@@ -12,6 +12,7 @@ import 'react-social-icons/pinterest'
 import 'react-social-icons/twitter'
 import 'react-social-icons/behance'
 import { SocialIcon } from 'react-social-icons/component'
+import Carousel from './components/Carousel.jsx'
 // import {Carousel} from 'react-bootstrap/Carousel';
 // import {CarouselItem} from 'react-bootstrap/esm/CarouselItem.js'
 
@@ -19,11 +20,12 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="home-section">
+
+      <div className="home-section" id="home-section">
         <div className="home-wrapper">
           <div className="home-subheading">WEB DEVELOPER & UX DESIGNER</div>
           <div className="switching-text">
-            WEB DESIGN
+            <Carousel />
           </div>
           <div className="home-text">I’m a Creative Designer and I make things <br />
           Turning your dreams into reality.</div>

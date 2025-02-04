@@ -3,7 +3,7 @@ import { GoStack } from "react-icons/go";
 
 function Services() {
   return (
-    <div className="services-section">
+    <div className="services-section" id='services-section'>
       <div className="row services-wrapper">
         <div className="col-lg-3 col-sm-12 services-text">
           <h1>SERVICES</h1>

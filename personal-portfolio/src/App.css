@@ -51,8 +51,15 @@
 
 .about-section{
   min-height: 100vh;
+  width: 100%;
   background-color: rgb(5, 5, 5);
   display: flex;
+}
+
+@media (width<768px) {
+  .about-section{
+    flex-direction: column;
+  }
 }
 
 .about-text{
@@ -155,7 +162,6 @@
 .portfolio-wrapper{
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
 }
 
 .portfolio-text{
@@ -163,7 +169,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .portfolio-text h3{
@@ -207,6 +213,7 @@
 .contact-subsection2{
   min-height: 64vh;
   background-color: var(--sectionbg);
+  padding-bottom: 20px ;
 }
 
 .csection2-wrapper{
@@ -238,7 +245,7 @@
   border-left: none;
   border-top: none;
   border-bottom: solid 1px var(--accent);
-  width: 25ch;
+  max-width: 25ch;
 }
 
 .contact-text-area{
@@ -248,7 +255,7 @@
   border-left: none;
   border-top: none;
   border-bottom: solid 1px var(--accent);
-  width: 57ch;
+  max-width: 100%;
   min-height: 10ch;
 }
 

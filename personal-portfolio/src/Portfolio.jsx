@@ -10,7 +10,7 @@ import Prtf6 from './assets/prtf-6.jpg'
 
 function Portfolio() {
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" id='portfolio-section'>
         <div className="row portfolio-wrapper">
             <div className="col-lg-3 portfolio-text">
                 <h3>PORTFOLIO</h3>

@@ -3,7 +3,7 @@ import aboutImage from './assets/about-background.jpg'
 
 function About() {
   return (
-    <div className="about-section">
+    <div className="about-section" id='about-section'>
         <div className="about-text">
           <div className="about-header">
             ABOUT US
