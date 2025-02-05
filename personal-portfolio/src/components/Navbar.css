@@ -13,7 +13,7 @@
 	animation: navFade ease-in forwards;
 	animation-timeline: view();
 	animation-range-start: 105vh;
-	animation-range-end: 120vh;
+	animation-range-end: 115vh;
 }
 
 @keyframes navFade {
@@ -35,6 +35,18 @@
 .nav-list{
 	display: flex;
 	gap: 15px;
+}
+
+@media (width<550px) {
+	.navigation-section{
+		flex-direction: column;
+		background-color: rgb(18, 18, 18);
+	}
+
+	.nav-list{
+		flex-direction: column;
+		top: 70px;	
+	}
 }
 
 .nav-item{

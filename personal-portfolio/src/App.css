@@ -2,8 +2,8 @@
   font-family: 'Jost', serif;
   color: white;
 /* 
-  box-sizing: border-box;
-  outline: 1px solid green; */
+    box-sizing: border-box;
+    outline: 1px solid green; */
 }
 
 :root{
@@ -35,6 +35,12 @@
 .switching-text{
   font-size: 6rem;
   font-weight: 700;
+}
+
+@media (width<600px) {
+  .switching-text{
+    font-size: 3rem;
+  }
 }
 
 .socials-icon a{
@@ -162,6 +168,7 @@
 .portfolio-wrapper{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .portfolio-text{
@@ -179,6 +186,8 @@
 
 .portfolio-cards-wrapper{
   display: flex;
+  position: relative;
+  right: 20px;
 }
 
 .cards-img{

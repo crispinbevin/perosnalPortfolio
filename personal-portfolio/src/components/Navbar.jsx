@@ -29,14 +29,15 @@ const Navbar=() => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-          <ul className='nav-list'>
-              <li className="nav-item"><button onClick={()=>handleScroll("home-section")} className="nav-link">HOME</button></li>
-              <li className="nav-item"><button onClick={()=>handleScroll("about-section")} className="nav-link">ABOUT</button></li>
-              <li className="nav-item"><button onClick={()=>handleScroll("services-section")} className="nav-link">SERVICES</button></li>
-              <li className="nav-item"><button onClick={()=>handleScroll("portfolio-section")} className="nav-link">WORKS</button></li>
-              <li className="nav-item"><button onClick={()=>handleScroll("contact-section")} className="nav-link">CONTACT</button></li>
-          </ul>
-        </div>
+      
+        <ul className='nav-list'>
+            <li className="nav-item"><button onClick={()=>handleScroll("home-section")} className="nav-link">HOME</button></li>
+            <li className="nav-item"><button onClick={()=>handleScroll("about-section")} className="nav-link">ABOUT</button></li>
+            <li className="nav-item"><button onClick={()=>handleScroll("services-section")} className="nav-link">SERVICES</button></li>
+            <li className="nav-item"><button onClick={()=>handleScroll("portfolio-section")} className="nav-link">WORKS</button></li>
+            <li className="nav-item"><button onClick={()=>handleScroll("contact-section")} className="nav-link">CONTACT</button></li>
+        </ul>
+      </div>
     </div>
   )
 }
